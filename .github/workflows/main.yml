@@ -11,7 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - run: |
+      - run:
+          git init
           git config --global user.email openhouseparty28@gmail.com
           git config --global user.name MangoStick
           git remote add origin https://${{secrets.PORTFOLIO}}@github.com/MangoStick/Fluid-Image-Pop-Up.git
