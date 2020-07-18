@@ -12,11 +12,8 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - run: |
-          cd Fluid-Image-Pop-Up
-          git init
           git config --global user.email openhouseparty28@gmail.com
           git config --global user.name MangoStick
-          git status
           git remote add origin https://${{secrets.PORTFOLIO}}@github.com/MangoStick/Fluid-Image-Pop-Up.git
           git checkout -b gh-pages
           git add --all
