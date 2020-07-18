@@ -12,6 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - run: |
+          cd Fluid-Image-Pop-Up
           git init
           git config --global user.email openhouseparty28@gmail.com
           git config --global user.name MangoStick
