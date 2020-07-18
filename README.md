@@ -1,5 +1,5 @@
 # Fluid Image Pop Up Preview
 
 <p>
-  <img src="previews/preview.png">
+  <img src="screenshots/preview.png">
 </p>
